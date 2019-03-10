@@ -2,9 +2,9 @@
 <html>
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
-  <title>Github+hexo搭建 | Hexo</title>
-  <meta name="keywords" content=" hexo , 3-hexo ">
-  <meta name="description" content="Github+hexo搭建 | Hexo">
+  <title>到处走走 | Hexo</title>
+  <meta name="keywords" content>
+  <meta name="description" content="到处走走 | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
@@ -263,9 +263,9 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-Github+hexo搭建" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-到处走走" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">Github+hexo搭建</h1>
+        <h1 class="article-title">到处走走</h1>
     
     <div class="article-meta">
         
@@ -273,23 +273,15 @@
         
         <span class="book">
             
-            <a href="javascript:" data-rel="工具">工具</a>
+            <a href="javascript:" data-rel="相册">相册</a>
             
         </span>
         
-        
-        <span class="tag">
-            
-            <a href="javascript:" class="color5">hexo</a>
-            
-            <a href="javascript:" class="color2">3-hexo</a>
-            
-        </span>
         
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title="更新时间: 2019-03-10 17:08:09">2019-03-10 17:00</time>
+        创建时间:<time class="date" title="更新时间: 2019-03-11 00:23:28">2019-03-11 00:23</time>
         
     </div>
     <div class="article-meta">
@@ -311,7 +303,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Deployment"><span class="toc-text">Deployment</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Docs-https-hexo-io-docs-deployment-html"><span class="toc-text">Docs: https://hexo.io/docs/deployment.html</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Extensions"><span class="toc-text">Extensions</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Plugins-https-hexo-io-plugins"><span class="toc-text">Plugins: https://hexo.io/plugins/</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Themes-https-hexo-io-themes"><span class="toc-text">Themes: https://hexo.io/themes/</span></a></li></ol></li></ol>
+        
     
 <style>
     .left-col .switch-btn,
@@ -326,11 +318,7 @@
 </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>1.Node.js 下载，并安装。<br>2.Git 下载，并安装。<br>3.安装Hexo，在命令行（即Git Bash）运行以下命令：<br>npm install -g hexo-cli<br>4.初始化Hexo，在命令行（即Git Bash）依次运行以下命令即可：<br>存放Hexo初始化文件的路径， 即站点目录。<br>$ hexo init <folder><br>$ cd <folder><br>$ npm install<br>新建完成后，在路径下，会产生这些文件和文件夹：<br>.<br>├── _config.yml<br>├── package.json<br>├── scaffolds<br>├── source<br>|   ├── _drafts<br>|   └── _posts<br>└── themes<br>hexo相关命令均在站点目录下，用Git Bash运行。<br>站点配置文件：站点目录下的_config.yml。<br>路径为<folder>_config.yml<br>主题配置文件：站点目录下的themes文件夹下的，主题文件夹下的_config.yml。<br>路径为<folder>\themes\&lt;主题文件夹&gt;_config.yml<br>5.启动服务器。在路径下，命令行（即Git Bash）输入以下命令，运行即可：<br>hexo server<br>6.浏览器访问网址： <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a><br>至此，您的Hexo博客已经搭建在本地。</folder></folder></folder></folder></p>
-<p>1.创建Github账号<br>2.创建仓库， 仓库名为：&lt;Github账号名称&gt;.github.io<br>3.将本地Hexo博客推送到GithubPages<br>3.1. 安装hexo-deployer-git插件。在命令行（即Git Bash）运行以下命令即可：<br>$ npm install hexo-deployer-git –save<br>3.2. 添加SSH key。<br>创建一个 SSH key 。在命令行（即Git Bash）输入以下命令， 回车三下即可：<br>$ ssh-keygen -t rsa -C “邮箱地址”<br>添加到 github。 复制密钥文件内容（路径形如C:\Users\Administrator.ssh\id_rsa.pub），粘贴到New SSH Key即可。<br>测试是否添加成功。在命令行（即Git Bash）依次输入以下命令，返回“You’ve successfully authenticated”即成功：<br>$ ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a><br>$ yes<br>3.3. 修改_config.yml（在站点目录下）。文件末尾修改为：</p>
-<h1 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h1><h2 id="Docs-https-hexo-io-docs-deployment-html"><a href="#Docs-https-hexo-io-docs-deployment-html" class="headerlink" title="Docs: https://hexo.io/docs/deployment.html"></a>Docs: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">https://hexo.io/docs/deployment.html</a></h2><p>deploy:<br>  type: git<br>  repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:&lt;Github账号名称&gt;/&lt;Github账号名称&gt;.github.io.git<br>  branch: master<br> 注意：上面仓库地址写ssh地址，不写http地址。<br>3.4. 推送到GithubPages。在命令行（即Git Bash）依次输入以下命令， 返回INFO Deploy done: git即成功推送：<br>$ hexo g<br>$ hexo d<br>4.等待1分钟左右，浏览器访问网址： https://&lt;Github账号名称&gt;.github.io<br>至此，您的Hexo博客已经搭建在GithubPages, 域名为https://&lt;Github账号名称&gt;.github.io。<br>应用主题<br>下载主题<br>将下载好的主题文件夹，粘贴到站点目录的themes下。<br>更改站点配置文件_config.yml 的theme字段，为主题文件夹的名称：</p>
-<h1 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h1><h2 id="Plugins-https-hexo-io-plugins"><a href="#Plugins-https-hexo-io-plugins" class="headerlink" title="Plugins: https://hexo.io/plugins/"></a>Plugins: <a href="https://hexo.io/plugins/" target="_blank" rel="noopener">https://hexo.io/plugins/</a></h2><h2 id="Themes-https-hexo-io-themes"><a href="#Themes-https-hexo-io-themes" class="headerlink" title="Themes: https://hexo.io/themes/"></a>Themes: <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></h2><p>theme: &lt;主题文件夹的名称&gt;</p>
-
+        
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com </span>
     </div>
@@ -343,12 +331,12 @@
 
 
 <div class="article_copyright">
-    <p><span>文章标题:</span>Github+hexo搭建</p>
+    <p><span>文章标题:</span>到处走走</p>
     
     <p><span>本文作者:</span><a href="javascript:void(0)" title="John Doe">John Doe</a></p>
-    <p><span>发布时间:</span>2019-03-10, 17:00:47</p>
-    <p><span>最后更新:</span>2019-03-10, 17:08:09</p>
-    <span>原始链接:</span><a class="post-url" href="/2019/03/10/Github+hexo搭建/" title="Github+hexo搭建">http://yoursite.com/2019/03/10/Github+hexo搭建/</a>
+    <p><span>发布时间:</span>2019-03-11, 00:23:08</p>
+    <p><span>最后更新:</span>2019-03-11, 00:23:28</p>
+    <span>原始链接:</span><a class="post-url" href="/2019/03/11/到处走走/" title="到处走走">http://yoursite.com/2019/03/11/到处走走/</a>
     <p>
         <span>版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target="_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
     </p>
