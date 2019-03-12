@@ -56,6 +56,14 @@
 
 <div class="icon">
     
+        
+        <a title="email" href="mailto:136950227@qq.com" target="_blank">
+            
+                <i class="iconfont icon-email"></i>
+            
+        </a>
+        
+    
 </div>
 
 
@@ -63,11 +71,13 @@
 <ul>
     <li class="all active">全部文章</li>
     
-    <li data-rel="相册"> 相册 </li>
-    
     <li data-rel="工具"> 工具 </li>
     
+    <li data-rel="整理"> 整理 </li>
+    
     <li data-rel="读书"> 读书 </li>
+    
+    <li data-rel="相册"> 相册 </li>
     
 </ul>
 <div class="left-bottom">
@@ -79,7 +89,7 @@
     </div>
     <div><a style="border-right: 1px solid #fff; width: 49%" class="about site_url" href="/about">关于</a><a style="width: 50%" class="friends">友链</a></div>
 </div>
-<input type="hidden" id="yelog_site_posts_number" value="3">
+<input type="hidden" id="yelog_site_posts_number" value="5">
 <input type="hidden" id="yelog_site_word_count" value="627">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
@@ -115,7 +125,11 @@
     </li>
     
     <li class="article-tag-list-item">
-        <a href="javascript:" class="color2">3-hexo</a>
+        <a href="javascript:" class="color4">Markdown</a>
+    </li>
+    
+    <li class="article-tag-list-item">
+        <a href="javascript:" class="color3">重庆</a>
     </li>
     
     <div class="clearfix"></div>
@@ -128,19 +142,29 @@
     
     <nav id="title-list-nav">
         
-        <a class="相册 " href="/2019/03/11/到处走走/" data-tag data-author>
-            <span class="post-title" title="到处走走">到处走走</span>
-            <span class="post-date" title="2019-03-11 00:23:08">2019/03/11</span>
-        </a>
-        
-        <a class="工具 " href="/2019/03/10/Github+hexo搭建/" data-tag="hexo,3-hexo" data-author>
+        <a class="工具 " href="/2019/03/10/Github+hexo搭建/" data-tag="hexo" data-author>
             <span class="post-title" title="Github+hexo搭建">Github+hexo搭建</span>
             <span class="post-date" title="2019-03-10 17:00:47">2019/03/10</span>
+        </a>
+        
+        <a class="工具 " href="/2019/03/12/Markdown语法/" data-tag="Markdown" data-author>
+            <span class="post-title" title="Markdown语法">Markdown语法</span>
+            <span class="post-date" title="2019-03-12 19:27:47">2019/03/12</span>
+        </a>
+        
+        <a class="整理 " href="/2019/03/12/网站/" data-tag data-author>
+            <span class="post-title" title="网站">网站</span>
+            <span class="post-date" title="2019-03-12 19:43:47">2019/03/12</span>
         </a>
         
         <a class="读书 " href="/2019/03/11/知识体系/" data-tag data-author>
             <span class="post-title" title="知识体系">知识体系</span>
             <span class="post-date" title="2019-03-11 00:17:47">2019/03/11</span>
+        </a>
+        
+        <a class="相册 " href="/2019/03/11/武隆仙女山/" data-tag="重庆" data-author>
+            <span class="post-title" title="武隆仙女山">武隆仙女山</span>
+            <span class="post-date" title="2019-03-11 00:23:08">2019/03/11</span>
         </a>
         
     </nav>
@@ -268,7 +292,7 @@
     /*作者、标签的自动补全*/
     $(function () {
         $('.search').AutoComplete({
-            'data': ['#hexo','#3-hexo',],
+            'data': ['#hexo','#Markdown','#重庆',],
             'itemHeight': 20,
             'width': 418
         }).AutoComplete('show');

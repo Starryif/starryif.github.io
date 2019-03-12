@@ -4,9 +4,53 @@
   
     
     <entry>
-      <title>到处走走</title>
-      <link href="/2019/03/11/%E5%88%B0%E5%A4%84%E8%B5%B0%E8%B5%B0/"/>
-      <url>/2019/03/11/%E5%88%B0%E5%A4%84%E8%B5%B0%E8%B5%B0/</url>
+      <title>网站</title>
+      <link href="/2019/03/12/%E7%BD%91%E7%AB%99/"/>
+      <url>/2019/03/12/%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 整理 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown语法</title>
+      <link href="/2019/03/12/Markdown%E8%AF%AD%E6%B3%95/"/>
+      <url>/2019/03/12/Markdown%E8%AF%AD%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>武隆仙女山</title>
+      <link href="/2019/03/11/%E6%AD%A6%E9%9A%86%E4%BB%99%E5%A5%B3%E5%B1%B1/"/>
+      <url>/2019/03/11/%E6%AD%A6%E9%9A%86%E4%BB%99%E5%A5%B3%E5%B1%B1/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -18,6 +62,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 重庆 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -27,7 +77,7 @@
       <link href="/2019/03/11/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/"/>
       <url>/2019/03/11/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/</url>
       
-        <content type="html"><![CDATA[<p>Python<br>SQL<br>HTML</p>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://starryif.gitbooks.io/html/content/" target="_blank" rel="noopener">HTML</a><br><a href="https://starryif.gitbooks.io/python-web-book/content/" target="_blank" rel="noopener">Python</a><br><a href="https://starryif.gitbooks.io/sql/content/" target="_blank" rel="noopener">SQL</a></p>]]></content>
       
       
       <categories>
@@ -59,8 +109,6 @@
         <tags>
             
             <tag> hexo </tag>
-            
-            <tag> 3-hexo </tag>
             
         </tags>
       
