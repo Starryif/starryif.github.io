@@ -1493,8 +1493,8 @@ div.ac > ul > li:before,
 }
 .post .pjax article table.green_title tr th {
   color: #eee;
-  border: 1px solid #009688;
-  background-color: #009688;
+  border: 1px solid #f5f5f5;
+  background-color: #c0c0c0;
 }
 .post .pjax article :not(pre) > code {
   color: #bf1827;
