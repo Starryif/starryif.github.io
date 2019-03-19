@@ -1228,7 +1228,7 @@ div.ac > ul > li:before,
 }
 .post ::selection {
   color: #fff;
-  background: #33caa6;
+  background: #000;
   text-shadow: none;
 }
 .post .pjax {
