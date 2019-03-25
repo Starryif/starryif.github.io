@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>需要实现自动化的功能</title>
+      <link href="/2019/03/25/%E9%9C%80%E8%A6%81%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%8C%96%E7%9A%84%E5%8A%9F%E8%83%BD/"/>
+      <url>/2019/03/25/%E9%9C%80%E8%A6%81%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%8C%96%E7%9A%84%E5%8A%9F%E8%83%BD/</url>
+      
+        <content type="html"><![CDATA[<p>1.支付宝<br>蚂蚁森林自动收取能量 自己和他人<br>蚂蚁庄园自动喂饲料 唤回小鸡 赶走其他小鸡<br>步数自定义领取红包<br>2.微信<br>微信运动步数自定义领取红包<br>自动抢红包<br>微信防撤回<br>3.QQ<br>QQ运动步数自定义领取红包<br>自动抢红包<br>补全QQ勋章墙<br>QQ防撤回<br>参考：巅峰阁<br>4.TIM<br>TIM防撤回<br>参考：<a href="https://www.52pojie.cn/thread-909182-1-1.html" target="_blank" rel="noopener">https://www.52pojie.cn/thread-909182-1-1.html</a><br>5.各大视频网站的签到</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>搭建vuepress</title>
       <link href="/2019/03/19/%E6%90%AD%E5%BB%BAvuepress/"/>
       <url>/2019/03/19/%E6%90%AD%E5%BB%BAvuepress/</url>
